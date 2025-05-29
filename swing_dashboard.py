@@ -135,3 +135,14 @@ with tabs[2]:
             st.info("No TP hits recorded yet.")
     else:
         st.info("No performance data yet.")
+
+
+elif selected_tab == "Scan Log":
+    st.subheader("🔍 Coin Scan Log")
+    if os.path.exists("scan_debug.json"):
+        with open("scan_debug.json", "r") as f:
+            debug_log = json.load(f)
+        df_log = pd.DataFrame(debug_log)
+        st.dataframe(df_log)
+    else:
+        st.info("Scan log not found. Run the scanner at least once.")
