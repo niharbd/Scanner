@@ -2,140 +2,80 @@ import streamlit as st
 import pandas as pd
 import json
 import os
-import subprocess
 from datetime import datetime
+from scanner_writer import run_scanner
+from tp_sl_tracker import track
+from streamlit_autorefresh import st_autorefresh
 
-st.set_page_config(page_title="Nihar's Dream Project", layout="wide")
-
-# Title block
+st.set_page_config(page_title="📊 Nihar's Dream Project", layout="wide")
 st.title("📊 Nihar's Dream Project")
 
-# Spinner animation shared for all scan modes
-spinner_html = """
-<div style='display: flex; gap: 3px; justify-content: flex-start; margin-top: 1em;'>
-  <div style='width: 5px; height: 20px; background: #e74c3c; animation: flicker 1s infinite;'></div>
-  <div style='width: 5px; height: 20px; background: #2ecc71; animation: flicker 1s infinite 0.2s;'></div>
-  <div style='width: 5px; height: 20px; background: #e74c3c; animation: flicker 1s infinite 0.4s;'></div>
-</div>
-<style>
-@keyframes flicker {
-  0% { opacity: 0.3; transform: scaleY(0.9); }
-  50% { opacity: 1; transform: scaleY(1.2); }
-  100% { opacity: 0.3; transform: scaleY(0.9); }
-}
-</style>
-"""
+# 🔄 Auto-refresh every 10 minutes
+st_autorefresh(interval=600000, limit=None, key="refresh")
 
-# Session state
-if "scan_ran" not in st.session_state:
-    st.session_state.scan_ran = False
-if "scanning" not in st.session_state:
-    st.session_state.scanning = False
-if "initial_scan_done" not in st.session_state:
-    st.session_state.initial_scan_done = False
+# Run scan on first page load
+if "auto_scanned" not in st.session_state:
+    st.session_state["auto_scanned"] = True
+    with st.spinner("🔍 Auto scanning market..."):
+        run_scanner()
 
-# Auto scan on first load
-if not st.session_state.initial_scan_done:
-    st.session_state.scanning = True
-    st.session_state.initial_scan_done = True
-    placeholder = st.empty()
-    placeholder.markdown(spinner_html, unsafe_allow_html=True)
-    try:
-        subprocess.call(["python", "scanner_writer.py"])
-        st.session_state.scan_ran = True
-    except Exception as e:
-        st.error(f"❌ Auto scan failed: {e}")
-    st.session_state.scanning = False
-    placeholder.empty()
+st.sidebar.success("Use sidebar to navigate tabs")
+TAB_OPTIONS = ["Live Signals", "Signal History", "Performance Report", "Scan Log"]
+selected_tab = st.sidebar.radio("View Mode", TAB_OPTIONS)
 
-# Manual scan trigger
-if st.button("🔄 Run Scanner Now"):
-    st.session_state.scanning = True
-    placeholder = st.empty()
-    placeholder.markdown(spinner_html, unsafe_allow_html=True)
-    try:
-        subprocess.call(["python", "scanner_writer.py"])
-        st.session_state.scan_ran = True
-    except Exception as e:
-        st.error(f"❌ Scanner failed: {e}")
-    st.session_state.scanning = False
-    placeholder.empty()
+SIGNAL_FILE = "signals.json"
+LOG_FILE = "signals_log.csv"
+ACTIVE_FILE = "active_signals.json"
 
-# Load signal data and meta
-live_signals = []
-meta = {}
-if os.path.exists("signals.json") and st.session_state.scan_ran:
-    with open("signals.json", "r") as f:
-        content = json.load(f)
-        if isinstance(content, dict):
-            live_signals = content.get("signals", [])
-            meta = content.get("meta", {})
+def load_signals():
+    if os.path.exists(SIGNAL_FILE):
+        with open(SIGNAL_FILE, "r") as f:
+            return json.load(f)
+    return {"signals": [], "meta": {}}
 
-# Load history
-history_df = pd.read_csv("signals_log.csv") if os.path.exists("signals_log.csv") else pd.DataFrame()
+def load_history():
+    if os.path.exists(LOG_FILE):
+        return pd.read_csv(LOG_FILE)
+    return pd.DataFrame()
 
-# Scan metrics
-if st.session_state.scan_ran and meta:
-    scan_time = meta.get("timestamp", "")
-    total_signals = meta.get("generated", 0)
-    total_scanned = meta.get("total_scanned", 0)
-    total_rejected = total_scanned - total_signals
-    avg_confidence = meta.get("avg_confidence", 0)
+signals_data = load_signals()
+signal_df = pd.DataFrame(signals_data.get("signals", []))
+history_df = load_history()
 
-    col1, col2, col3, col4 = st.columns(4)
-    col1.metric("🕒 Last Scan (BST)", scan_time)
-    col2.metric("📈 Signals", f"{total_signals} / {total_scanned}")
-    col3.metric("❌ Rejected", total_rejected)
-    col4.metric("🤖 Avg. Confidence", f"{avg_confidence:.2f}%")
+if selected_tab == "Live Signals":
+    st.subheader("📡 Live Market Signals")
+    meta = signals_data.get("meta", {})
+    st.markdown(f"✅ Last Scan Time (BST): `{meta.get('timestamp', 'N/A')}`")
+    st.markdown(f"📈 Valid Signals Detected: `{meta.get('generated', 0)} / {meta.get('total_scanned', 0)}`")
+    st.markdown(f"🤖 Average Model Confidence: `{meta.get('avg_confidence', 0)}%`")
 
-# Tab layout
-tabs = st.tabs(["📡 Live Signals", "📜 Signal History", "📈 Performance Report"])
-
-# Tab 1: Live Signals
-with tabs[0]:
-    if live_signals:
-        st.dataframe(pd.DataFrame(live_signals))
+    if not signal_df.empty:
+        st.dataframe(signal_df)
     else:
-        st.info("No current signals. Awaiting next scan...")
+        st.info("No signals found. Please wait for next auto-scan.")
 
-# Tab 2: Signal History
-with tabs[1]:
+elif selected_tab == "Signal History":
+    st.subheader("📜 Signal History Log")
     if not history_df.empty:
-        cols = ["Signal Time", "Coin", "Type", "Entry", "TPs", "SL", "Confidence", "result", "tp_hit"]
-        if all(c in history_df.columns for c in cols):
-            history_df = history_df[cols]
-        if "Signal Time" in history_df.columns:
-            history_df = history_df.sort_values("Signal Time", ascending=False)
-        elif "signal_time" in history_df.columns:
-            history_df = history_df.sort_values("signal_time", ascending=False)
-        st.dataframe(history_df.reset_index(drop=True))
+        st.dataframe(history_df.sort_values("Signal Time", ascending=False).reset_index(drop=True))
     else:
-        st.info("No signal history yet.")
+        st.info("No signal history available.")
 
-# Tab 3: Performance
-with tabs[2]:
+elif selected_tab == "Performance Report":
+    st.subheader("📈 Performance Tracker")
     if not history_df.empty:
-        total = len(history_df)
-        wins = len(history_df[history_df["result"] == 1])
-        losses = len(history_df[history_df["result"] == 0])
-        win_rate = (wins / total) * 100 if total else 0
-
-        tp_counts = history_df["tp_hit"].value_counts().to_dict() if "tp_hit" in history_df.columns else {}
-
-        st.metric("📌 Total Signals", total)
-        st.metric("✅ TP Hit (Wins)", wins)
-        st.metric("❌ SL Hit (Losses)", losses)
-        st.metric("🎯 Win Rate", f"{win_rate:.2f}%")
-
-        st.subheader("📊 TP Hit Breakdown")
-        if tp_counts:
-            for level in ["TP1", "TP2", "TP3", "TP4"]:
-                st.write(f"{level}: {tp_counts.get(level, 0)}")
-        else:
-            st.info("No TP hits recorded yet.")
+        tp_counts = history_df["tp_hit"].value_counts().to_dict()
+        result_counts = history_df["result"].value_counts().to_dict()
+        col1, col2 = st.columns(2)
+        with col1:
+            st.metric("Total Signals", len(history_df))
+            st.metric("TP Hits", result_counts.get(1, 0))
+            st.metric("SL Hits", result_counts.get(0, 0))
+        with col2:
+            for i in range(1, 5):
+                st.metric(f"TP{i} Hits", tp_counts.get(f"TP{i}", 0))
     else:
-        st.info("No performance data yet.")
-
+        st.info("No performance data available.")
 
 elif selected_tab == "Scan Log":
     st.subheader("🔍 Coin Scan Log")
