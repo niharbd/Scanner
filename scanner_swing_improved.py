@@ -16,6 +16,16 @@ BST = pytz.timezone("Asia/Dhaka")
 
 print("📡 Starting swing scanner with detailed logging...")
 
+# Track rejection reasons
+rejection_reasons = {}
+
+def count_reason(reason):
+    if reason not in rejection_reasons:
+        rejection_reasons[reason] = 1
+    else:
+        rejection_reasons[reason] += 1
+
+
 def load_model():
     path = "model.pkl"
     if os.path.exists(path):
@@ -65,20 +75,20 @@ def scan():
 
             if l15["ADX"] < 25 or l1h["ADX"] < 25:
                 print(f"❌ {symbol} rejected: ADX too low")
-                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "ADX < 25"})
+                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "ADX < 25"}); count_reason("ADX < 25")
                 continue
             if not (55 <= l15["RSI"] <= 85 and 55 <= l1h["RSI"] <= 85):
                 print(f"❌ {symbol} rejected: RSI = {l15['RSI']:.1f} / {l1h['RSI']:.1f}")
-                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "RSI out of range"})
+                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "RSI out of range"}); count_reason("RSI out of range")
                 continue
             if l15["RVOL"] < 1.5:
                 print(f"❌ {symbol} rejected: RVOL = {l15['RVOL']:.2f}")
-                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "RVOL < 1.5"})
+                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "RVOL < 1.5"}); count_reason("RVOL < 1.5")
                 continue
             macd_cross = df_15m["MACD"].iloc[-2] < df_15m["MACD_Signal"].iloc[-2] and l15["MACD"] > l15["MACD_Signal"]
             if not macd_cross:
                 print(f"❌ {symbol} rejected: No MACD crossover")
-                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "No MACD crossover"})
+                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "No MACD crossover"}); count_reason("No MACD crossover")
                 continue
 
             breakout = l15["Close"] > l15["EMA20"] > l15["EMA50"] and l1h["Close"] > l1h["EMA20"] > l1h["EMA50"]
@@ -127,13 +137,24 @@ def scan():
                     scan_log.append({"symbol": symbol, "status": "✅ passed", "confidence": confidence})
                 else:
                     print(f"⚠️  {symbol} skipped — Confidence too low ({confidence}%)")
-                    scan_log.append({"symbol": symbol, "status": "rejected", "reason": f"Low confidence ({confidence}%)"})
+                    scan_log.append({"symbol": symbol, "status": "rejected", "reason": f"Low confidence ({confidence}%)"}); count_reason("Low Confidence")
         except Exception as e:
             print(f"❌ Error with {symbol}: {str(e)}")
             scan_log.append({"symbol": symbol, "status": "error", "reason": str(e)})
             continue
 
+    # Save scan log
+    with open("scan_debug.json", "w") as f:
+        json.dump(scan_log, f, indent=2)
+
+    # Save rejection summary
+    with open("scan_summary.json", "w") as f:
+        json.dump(rejection_reasons, f, indent=2)
+
     print(f"\n✅ Scan complete: {len(results)} signal(s) found out of {len(symbols)} coins")
+    print("\n📊 Rejection Summary:")
+    for reason, count in rejection_reasons.items():
+        print(f" - {reason}: {count}")
 
     with open("scan_debug.json", "w") as f:
         json.dump(scan_log, f, indent=2)
