@@ -1,0 +1,2322 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "status": "rejected",
+    "reason": "RVOL < 1.5"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BCHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "XRPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LTCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TRXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ETCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LINKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "XLMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ADAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "XMRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DASHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ZECUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "XTZUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BNBUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ATOMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ONTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "IOTAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BATUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VETUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NEOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "QTUMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "IOSTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "THETAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ALGOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ZILUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KNCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ZRXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "COMPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "OMGUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SXPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KAVAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BANDUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RLCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "WAVESUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MKRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SNXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DOTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DEFIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "YFIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BALUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CRVUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TRBUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RUNEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SUSHIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "EGLDUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ICXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "STORJUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BLZUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "UNIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AVAXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FTMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ENJUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FLMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RENUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KSMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NEARUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AAVEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FILUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RSRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LRCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "OCEANUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BELUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AXSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ALPHAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ZENUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SKLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GRTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1INCHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CHZUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SANDUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ANKRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LITUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "UNFIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "REEFUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RVNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SFPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "XEMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "COTIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CHRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MANAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ALICEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HBARUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ONEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LINAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "STMXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DENTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CELRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HOTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MTLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "OGNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NKNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DGBUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000SHIBUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BAKEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GTCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BTCDOMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "IOTXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RAYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "C98USDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MASKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ATAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DYDXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000XECUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GALAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CELOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ARUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KLAYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ARPAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CTSIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LPTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ENSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PEOPLEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ROSEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DUSKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FLOWUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "IMXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "API3USDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GMTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "APEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "WOOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FTTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "JASMYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DARUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "OPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "INJUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "STGUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SPELLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000LUNCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LUNA2USDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LDOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CVXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ICPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "APTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "QNTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FETUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FXSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HOOKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MAGICUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HIGHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MINAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ASTRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AGIXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PHBUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GMXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CFXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "STXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BNXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ACHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SSVUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CKBUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PERPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TRUUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LQTYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "USDCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "IDUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ARBUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "JOEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TLMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AMBUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LEVERUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RDNTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HFTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "XVSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BLURUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "EDUUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "IDEXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SUIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000PEPEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000FLOKIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "UMAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RADUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KEYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "COMBOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NMRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MAVUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MDTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "XVGUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "WLDUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PENDLEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ARKMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AGLDUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "YGGUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DODOXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BNTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "OXTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SEIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CYBERUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HIFIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ARKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GLMRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BICOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "STRAXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LOOMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BIGTIMEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BONDUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ORBSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "STPTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "WAXPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BSVUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RIFUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "POLYXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GASUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "POWRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SLPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TIAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SNTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CAKEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MEMEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TWTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TOKENUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ORDIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "STEEMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BADGERUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ILVUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NTRNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KASUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BEAMXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000BONKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PYTHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SUPERUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "USTCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ONGUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ETHWUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "JTOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000SATSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AUCTIONUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000RATSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ACEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MOVRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NFPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "XAIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "WIFUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MANTAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ONDOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LSKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ALTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "JUPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ZETAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RONINUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DYMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "OMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PIXELUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "STRKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GLMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PORTALUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TONUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AXLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MYROUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "METISUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AEVOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VANRYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BOMEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ETHFIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ENAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "WUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TNSRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SAGAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TAOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "OMNIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "REZUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BBUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NOTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TURBOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "IOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ZKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MEWUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LISTAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ZROUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RENDERUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BANANAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RAREUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SYNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SYSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VOXELUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BRETTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ALPACAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "POPCATUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SUNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VIDTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NULSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DOGSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MBOXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CHESSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FLUXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BSWUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "QUICKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NEIROETHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RPLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "POLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "UXLINKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1MBABYDOGEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NEIROUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KDAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FIDAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FIOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CATIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GHSTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LOKAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HMSTRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "REIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "COSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "EIGENUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DIAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SCRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GOATUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MOODENGUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SAFEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SANTOSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TROYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PONKEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "COWUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CETUSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GRASSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DRIFTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SWELLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ACTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PNUTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HIPPOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000XUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DEGENUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BANUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AKTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SLERFUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SCRTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000CHEEMSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "1000WHYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "THEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MORPHOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CHILLGUYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KAIAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AEROUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ACXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ORCAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MOVEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "RAYSOLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KOMAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VIRTUALUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SPXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AVAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DEGOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VELODROMEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MOCAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VANAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PENGUUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LUMIAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "USUALUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AIXBTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FARTCOINUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KMNOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CGPTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HIVEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DEXEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PHAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DFUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GRIFFAINUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AI16ZUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ZEREBROUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BIOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "COOKIEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ALCHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SWARMSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SONICUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PROMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SOLVUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ARCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AVAAIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TRUMPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MELANIAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VTHOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ANIMEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VINEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PIPPINUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VVVUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BERAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TSTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "LAYERUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HEIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "B3USDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "IPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GPSUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SHELLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KAITOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "REDUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "VICUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "EPICUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BMTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MUBARAKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FORMUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BIDUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "TUTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BROCCOLI714USDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BROCCOLIF3BUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SIRENUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BANANAS31USDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PLUMEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NILUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PARTIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "JELLYJELLYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MAVIAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PAXGUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "WALUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FUNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MLNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "GUNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ATHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BABYUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FORTHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PROMPTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "XCNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PUMPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "STOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FHEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "KERNELUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "WCTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "INITUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AERGOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BANKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "EPTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DEEPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HYPERUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MEMEFIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "FISUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "JSTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SIGNUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "PUNDIXUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CTKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AIOTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DOLOUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HAEDALUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SXTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ASRUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ALPINEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "B2USDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MILKUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SYRUPUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "OBOLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "DOODUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "OGUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "ZKJUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SKYAIUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "NXPCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "CVCUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AGTUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AWEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "BUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SOONUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HUMAUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "AUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "SOPHUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "MERLUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  },
+  {
+    "symbol": "HYPEUSDT",
+    "status": "rejected",
+    "reason": "ADX < 25"
+  }
+]

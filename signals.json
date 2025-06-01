@@ -1,9 +1,85 @@
 {
-  "signals": [],
+  "signals": [
+    {
+      "Coin": "BTCUSDT",
+      "Type": "SHORT",
+      "Confidence": 89.87,
+      "Entry": 462.15,
+      "TPs": [
+        443.66,
+        425.18,
+        406.69,
+        388.21
+      ],
+      "SL": 476.01,
+      "Why Detected": "TEST MODE SIGNAL",
+      "Signal Time": "2025-06-02 00:26:49"
+    },
+    {
+      "Coin": "ETHUSDT",
+      "Type": "LONG",
+      "Confidence": 96.08,
+      "Entry": 573.42,
+      "TPs": [
+        596.36,
+        619.29,
+        642.23,
+        665.17
+      ],
+      "SL": 556.22,
+      "Why Detected": "TEST MODE SIGNAL",
+      "Signal Time": "2025-06-02 00:26:49"
+    },
+    {
+      "Coin": "XRPUSDT",
+      "Type": "LONG",
+      "Confidence": 90.78,
+      "Entry": 746.68,
+      "TPs": [
+        776.55,
+        806.41,
+        836.28,
+        866.15
+      ],
+      "SL": 724.28,
+      "Why Detected": "TEST MODE SIGNAL",
+      "Signal Time": "2025-06-02 00:26:49"
+    },
+    {
+      "Coin": "BNBUSDT",
+      "Type": "LONG",
+      "Confidence": 92.23,
+      "Entry": 590.28,
+      "TPs": [
+        613.89,
+        637.5,
+        661.11,
+        684.72
+      ],
+      "SL": 572.57,
+      "Why Detected": "TEST MODE SIGNAL",
+      "Signal Time": "2025-06-02 00:26:49"
+    },
+    {
+      "Coin": "SOLUSDT",
+      "Type": "SHORT",
+      "Confidence": 85.15,
+      "Entry": 644.0,
+      "TPs": [
+        618.24,
+        592.48,
+        566.72,
+        540.96
+      ],
+      "SL": 663.32,
+      "Why Detected": "TEST MODE SIGNAL",
+      "Signal Time": "2025-06-02 00:26:49"
+    }
+  ],
   "meta": {
-    "timestamp": "2025-05-31 22:41:25",
-    "total_scanned": 464,
-    "generated": 0,
-    "avg_confidence": 0
+    "timestamp": "2025-06-02 00:26:49",
+    "total_scanned": 5,
+    "generated": 5,
+    "avg_confidence": 92
   }
 }

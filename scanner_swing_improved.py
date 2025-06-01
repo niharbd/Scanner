@@ -1,10 +1,13 @@
+import os
+import json
+import time
+import joblib
 import pandas as pd
 import requests
 from datetime import datetime
 import pytz
-import os
-import joblib
-import json
+from random import uniform, choice
+
 from utils import fetch_klines
 from signal_logger import log_signal
 
@@ -64,13 +67,13 @@ def scan():
                 print(f"❌ {symbol} rejected: ADX too low")
                 scan_log.append({"symbol": symbol, "status": "rejected", "reason": "ADX < 25"})
                 continue
-            if not (60 <= l15["RSI"] <= 80 and 60 <= l1h["RSI"] <= 80):
-                print(f"❌ {symbol} rejected: RSI out of range")
-                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "RSI not in 60–80"})
+            if not (55 <= l15["RSI"] <= 85 and 55 <= l1h["RSI"] <= 85):
+                print(f"❌ {symbol} rejected: RSI = {l15['RSI']:.1f} / {l1h['RSI']:.1f}")
+                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "RSI out of range"})
                 continue
-            if l15["RVOL"] < 2:
-                print(f"❌ {symbol} rejected: RVOL={l15['RVOL']:.2f}")
-                scan_log.append({"symbol": symbol, "status": "rejected", "reason": f"RVOL < 2 ({l15['RVOL']:.2f})"})
+            if l15["RVOL"] < 1.5:
+                print(f"❌ {symbol} rejected: RVOL = {l15['RVOL']:.2f}")
+                scan_log.append({"symbol": symbol, "status": "rejected", "reason": "RVOL < 1.5"})
                 continue
             macd_cross = df_15m["MACD"].iloc[-2] < df_15m["MACD_Signal"].iloc[-2] and l15["MACD"] > l15["MACD_Signal"]
             if not macd_cross:
