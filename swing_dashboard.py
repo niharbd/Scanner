@@ -10,22 +10,19 @@ from streamlit_autorefresh import st_autorefresh
 st.set_page_config(page_title="📊 Nihar's Dream Project", layout="wide")
 st.title("📊 Nihar's Dream Project")
 
-# 🔄 Auto-refresh every 10 minutes
 st_autorefresh(interval=600000, limit=None, key="refresh")
 
-# Run scan on first page load
 if "auto_scanned" not in st.session_state:
     st.session_state["auto_scanned"] = True
     with st.spinner("🔍 Auto scanning market..."):
         run_scanner()
 
 st.sidebar.success("Use sidebar to navigate tabs")
-TAB_OPTIONS = ["Live Signals", "Signal History", "Performance Report", "Scan Log"]
+TAB_OPTIONS = ["Live Signals", "Signal History", "Performance Report", "Scan Log", "Scan Summary"]
 selected_tab = st.sidebar.radio("View Mode", TAB_OPTIONS)
 
 SIGNAL_FILE = "signals.json"
 LOG_FILE = "signals_log.csv"
-ACTIVE_FILE = "active_signals.json"
 
 def load_signals():
     if os.path.exists(SIGNAL_FILE):
@@ -86,3 +83,13 @@ elif selected_tab == "Scan Log":
         st.dataframe(df_log)
     else:
         st.info("Scan log not found. Run the scanner at least once.")
+
+elif selected_tab == "Scan Summary":
+    st.subheader("📊 Rejection Summary Breakdown")
+    if os.path.exists("scan_summary.json"):
+        with open("scan_summary.json", "r") as f:
+            summary_data = json.load(f)
+        df_summary = pd.DataFrame(list(summary_data.items()), columns=["Reason", "Count"]).sort_values("Count", ascending=False)
+        st.table(df_summary)
+    else:
+        st.info("Rejection summary not available. Run the scanner at least once.")
