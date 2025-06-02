@@ -32,7 +32,11 @@ def load_signals():
 
 def load_history():
     if os.path.exists(LOG_FILE):
-        return pd.read_csv(LOG_FILE)
+        try:
+            return pd.read_csv(LOG_FILE, on_bad_lines='skip')
+        except Exception as e:
+            st.error(f"Failed to load signal log: {e}")
+            return pd.DataFrame()
     return pd.DataFrame()
 
 signals_data = load_signals()
